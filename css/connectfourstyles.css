@@ -6,9 +6,10 @@ body {
 
 h1 {
   margin: 0 auto;
-  font-family: "Major Mono Display", monospace;
+  font-family: "Times New Roman", Times, serif;
   font-size: 48px;
   margin: 2%;
+  color: #e75480
 }
 
 h2 {
@@ -38,10 +39,10 @@ h2 {
 .square {
   border: 1px solid rgba(0, 0, 0, 0.75);
   font-size: 96px;
-  height: 150px;
+  height: 72px;
   line-height: 150px;
   user-select: none;
-  width: 150px;
+  width: 61px;
 }
 
 .square:hover {
@@ -95,4 +96,15 @@ table {
   margin-left: auto;
   margin-right: auto;
   width: 80%;
+}
+a {
+  color: #E75480
+  font-size: 30px;
+  font-family: "Arial Black", Gadget, sans-serif;
+  text-align: justify;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #FFFFFF
 }
