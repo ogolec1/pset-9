@@ -1,7 +1,7 @@
 body {
   text-align: center;
   font-family: "Roboto", monospace;
-  background-color: #D1ECFF;
+  background-color: #D1F7D7;
 }
 
 h1 {
@@ -9,7 +9,7 @@ h1 {
   font-family: "Times New Roman", Times, serif;
   font-size: 70px;
   margin: 2%;
-  color: #5AA0D1
+  color: #65AB70
 }
 
 h2 {
@@ -39,10 +39,10 @@ h2 {
 .square {
   border: 1px solid rgba(0, 0, 0, 0.75);
   font-size: 96px;
-  height: 72px;
+  height: 150px;
   line-height: 150px;
   user-select: none;
-  width: 61px;
+  width: 150px;
 }
 
 .square:hover {
@@ -97,6 +97,7 @@ table {
   margin-right: auto;
   width: 80%;
 }
+
 a {
   color: #E75480
   font-size: 30px;
@@ -107,49 +108,4 @@ a {
 
 a:hover {
   color: #FFFFFF
-}
-
-#red-button {
-  display: inline-block;
-  padding: 15px 25px;
-  font-size: 24px;
-  cursor: pointer;
-  text-align: center;
-  text-decoration: none;
-  outline: none;
-  color: #fff;
-  background-color: #5AA0D1;
-  border: none;
-  border-radius: 15px;
-  box-shadow: 0 9px #999;
-}
-
-#red-button:hover {background-color: #9AC1DC}
-
-#red-button:active {
-  background-color: #206798;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
-}
-#yellow-button {
-  display: inline-block;
-  padding: 15px 25px;
-  font-size: 24px;
-  cursor: pointer;
-  text-align: center;
-  text-decoration: none;
-  outline: none;
-  color: #fff;
-  background-color: #5AA0D1;
-  border: none;
-  border-radius: 15px;
-  box-shadow: 0 9px #999;
-}
-
-#yellow-button:hover {background-color: #9AC1DC}
-
-#yellow-button:active {
-  background-color: #206798;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
 }

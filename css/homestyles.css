@@ -1,15 +1,15 @@
 body {
   text-align: center;
   font-family: "Roboto", monospace;
-  background-color: #FDDDE6;
+  background-color: #EED5FA;
 }
 
 h1 {
   margin: 0 auto;
   font-family: "Times New Roman", Times, serif;
-  font-size: 48px;
+  font-size: 70px;
   margin: 2%;
-  color: #e75480
+  color: #80419E
 }
 
 h2 {
