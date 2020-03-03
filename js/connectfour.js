@@ -228,8 +228,6 @@ function redFirst() {
   document.getElementById("turn").innerHTML = "Turn: Red";
   turn = "Red";
   first = "Red"
-
-
 }
 
 function yellowFirst() {
