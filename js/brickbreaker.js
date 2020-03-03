@@ -156,7 +156,6 @@ function draw() {
     }
   }
 
-
   if (rightPressed && paddleX < canvas.width - paddleWidth) {
     paddleX += 7;
   } else if (leftPressed && paddleX > 0) {
