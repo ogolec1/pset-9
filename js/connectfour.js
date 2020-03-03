@@ -100,7 +100,6 @@ function init() {
   ];
   turn = "Red"
   win = null
-
   render();
 }
 
