@@ -40,10 +40,12 @@ function firstX() {
   document.getElementById('switch').innerHTML = "Turn: X";
   turn = "X";
 }
+
 function firstO() {
   document.getElementById('switch').innerHTML = "Turn: O";
   turn = "O";
 }
+
 function render() {
   board.forEach(function(mark, index) {
     squares[index].textContent = mark;
@@ -52,6 +54,7 @@ function render() {
   message.textContent =
     win === "T" ? "It's a tie!" : win ? `${win} wins!` : `Turn: ${turn}`;
 }
+
 function takeTurn(e) {
   if (!win) {
     let index = squares.findIndex(function(square) {
@@ -66,11 +69,12 @@ function takeTurn(e) {
       render();
     }
     if (win === "T") {
-    tie++;
-    document.getElementById('tie-score').innerHTML = tie;
+      tie++;
+      document.getElementById('tie-score').innerHTML = tie;
     }
   }
 }
+
 function getWinner() {
   let winner = null;
 
@@ -84,12 +88,12 @@ function getWinner() {
     }
   });
 
-    if (winner === "X") {
-      xwins++;
-      document.getElementById('x-score').innerHTML = xwins;
-    } else if (winner === "O") {
-      owins++;
-      document.getElementById('o-score').innerHTML = owins;
-    }
+  if (winner === "X") {
+    xwins++;
+    document.getElementById('x-score').innerHTML = xwins;
+  } else if (winner === "O") {
+    owins++;
+    document.getElementById('o-score').innerHTML = owins;
+  }
   return winner ? winner : board.includes("") ? null : "T";
 }

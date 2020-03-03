@@ -1,62 +1,65 @@
 <!DOCTYPE html>
 
 <html lang="en">
-  <head>
-    <title>Tic-Tac-Toe</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-    <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display" rel="stylesheet" />
-    <link href="css/tictactoestyles.css" rel="stylesheet" type="text/css" />
-    <script defer src="js/tictactoe.js"></script>
+<head>
+  <title>Tic-Tac-Toe</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-  </head>
-  <body>
+  <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display" rel="stylesheet" />
+  <link href="css/tictactoestyles.css" rel="stylesheet" type="text/css" />
+  <script defer src="js/tictactoe.js"></script>
 
-    <header>
-      <a href = "index.html"> Home </a>
-      <a href = "tictactoe.html"> Tic Tac Toe </a>
-      <a href = "connectfour.html"> Connect Four </a>
-      <a href = "brickbreaker.html"> Brick Breaker </a>
-    </header>
+</head>
 
-    <h1> tic tac toe</h1>
+<body>
 
-    <button id="x-button">X goes first</button>
-    <button id="o-button">O goes first</button>
+  <header>
+    <a href="index.html"> Home </a>
+    <a href="tictactoe.html"> Tic Tac Toe </a>
+    <a href="connectfour.html"> Connect Four </a>
+    <a href="brickbreaker.html"> Brick Breaker </a>
+  </header>
 
-          <table id="keep-score">
-            <tr>
-              <th>Player X</th>
-              <th>Tie</th>
-              <th>Player O</th>
-            </tr>
-            <tr>
-               <td id="x-score">0</td>
-               <td id="tie-score">0</td>
-               <td id="o-score">0</td>
-            </tr>
-          </table>
+  <h1> tic tac toe</h1>
+
+  <button id="x-button">X goes first</button>
+  <button id="o-button">O goes first</button>
+
+  <table id="keep-score">
+    <tr>
+      <th>Player X</th>
+      <th>Tie</th>
+      <th>Player O</th>
+    </tr>
+    <tr>
+      <td id="x-score">0</td>
+      <td id="tie-score">0</td>
+      <td id="o-score">0</td>
+    </tr>
+  </table>
 
 
-    <div class="container column">
-      <h2 id="switch">Turn: X</h2>
+  <div class="container column">
+    <h2 id="switch">Turn: X</h2>
 
-      <div class="container wrap" id="board">
-        <div class="square"></div>
-        <div class="square"></div>
-        <div class="square"></div>
-        <div class="square"></div>
-        <div class="square"></div>
-        <div class="square"></div>
-        <div class="square"></div>
-        <div class="square"></div>
-        <div class="square"></div>
-      </div>
-
-      <div id="reset-button">PLAY AGAIN</div>
-
+    <div class="container wrap" id="board">
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
     </div>
-  </body>
+
+    <div id="reset-button">PLAY AGAIN</div>
+
+  </div>
+</body>
+
 </html>
