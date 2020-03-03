@@ -235,11 +235,9 @@ function redFirst() {
 
 function yellowFirst() {
   init();
-
   document.getElementById("turn").innerHTML = "Turn: Yellow";
   turn = "Yellow";
   first = "Yellow"
-
 }
 
 function resetScoreboard() {
