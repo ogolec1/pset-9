@@ -225,7 +225,6 @@ function resetScoreboard() {
 
 function redFirst() {
   init();
-
   document.getElementById("turn").innerHTML = "Turn: Red";
   turn = "Red";
   first = "Red"
