@@ -161,7 +161,6 @@ function draw() {
   } else if (leftPressed && paddleX > 0) {
     paddleX -= 7;
   }
-
   x += dx;
   y += dy;
   requestAnimationFrame(draw);
