@@ -1,4 +1,3 @@
-///////////////////// CONSTANTS /////////////////////////////////////
 const winningConditions = [
   [0, 1, 2],
   [3, 4, 5],
@@ -9,23 +8,23 @@ const winningConditions = [
   [0, 4, 8],
   [2, 4, 6]
 ];
-///////////////////// APP STATE (VARIABLES) /////////////////////////
+
 let board;
 let turn;
 let win;
-let xWin = 0;
+let xwins = 0;
 let tie = 0;
-let oWin = 0;
-///////////////////// CACHED ELEMENT REFERENCES /////////////////////
+let owins = 0;
+
 const squares = Array.from(document.querySelectorAll("#board div"));
 const message = document.querySelector("h2");
-///////////////////// EVENT LISTENERS ///////////////////////////////
+
 window.onload = init;
 document.getElementById("board").onclick = takeTurn;
 document.getElementById("reset-button").onclick = init;
 document.getElementById("x-button").onclick = firstX;
 document.getElementById("o-button").onclick = firstO;
-///////////////////// FUNCTIONS /////////////////////////////////////
+
 function init() {
   board = [
     "", "", "",
@@ -34,9 +33,9 @@ function init() {
   ];
   turn = "X";
   win = null;
-
   render();
 }
+
 function firstX() {
   document.getElementById('switch').innerHTML = "Turn: X";
   turn = "X";
@@ -86,11 +85,11 @@ function getWinner() {
   });
 
     if (winner === "X") {
-      xWin++;
-      document.getElementById('x-score').innerHTML = xWin;
+      xwins++;
+      document.getElementById('x-score').innerHTML = xwins;
     } else if (winner === "O") {
-      oWin++;
-      document.getElementById('o-score').innerHTML = oWin;
+      owins++;
+      document.getElementById('o-score').innerHTML = owins;
     }
   return winner ? winner : board.includes("") ? null : "T";
 }

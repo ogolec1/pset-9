@@ -45,10 +45,6 @@ h2 {
   width: 150px;
 }
 
-.square:hover {
-  background-color: white;
-  cursor: pointer;
-}
 
 #reset-button {
   background-color: white;
@@ -108,4 +104,68 @@ a {
 
 a:hover {
   color: #FFFFFF
+}
+
+span{
+    display: none;
+}
+
+.tictactoe:hover{
+  box-shadow:inset 0 0 0 10px rgba(255,255,255,.5), inset 0 0 0 100px rgba(0,0,0,.5);
+}
+.tictactoe:hover span{
+  display: block;
+}
+.tictactoe {display: inline-block;
+padding: 15px 25px;
+font-size: 24px;
+cursor: pointer;
+text-align: center;
+text-decoration: none;
+outline: none;
+color: #fff;
+background-color: #F966B1;
+border: none;
+border-radius: 15px;
+box-shadow: 0 9px #999;
+}
+
+.connectfour:hover{
+  box-shadow:inset 0 0 0 10px rgba(255,255,255,.5), inset 0 0 0 100px rgba(0,0,0,.5);
+}
+.connectfour:hover span{
+  display: block;
+}
+.connectfour {display: inline-block;
+padding: 15px 25px;
+font-size: 24px;
+cursor: pointer;
+text-align: center;
+text-decoration: none;
+outline: none;
+color: #fff;
+background-color: #5AA0D1;
+border: none;
+border-radius: 15px;
+box-shadow: 0 9px #999;
+}
+
+.brickbreaker:hover{
+  box-shadow:inset 0 0 0 10px rgba(255,255,255,.5), inset 0 0 0 100px rgba(0,0,0,.5);
+}
+.brickbreaker:hover span{
+  display: block;
+}
+.brickbreaker {display: inline-block;
+padding: 15px 25px;
+font-size: 24px;
+cursor: pointer;
+text-align: center;
+text-decoration: none;
+outline: none;
+color: #fff;
+background-color: #65AB70;
+border: none;
+border-radius: 15px;
+box-shadow: 0 9px #999;
 }

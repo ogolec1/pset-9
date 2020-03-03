@@ -109,7 +109,7 @@ a:hover {
   color: #FFFFFF
 }
 
-#red-button {
+#redFirst {
   display: inline-block;
   padding: 15px 25px;
   font-size: 24px;
@@ -124,14 +124,14 @@ a:hover {
   box-shadow: 0 9px #999;
 }
 
-#red-button:hover {background-color: #9AC1DC}
+#redFirst:hover {background-color: #9AC1DC}
 
-#red-button:active {
+#redFirst:active {
   background-color: #206798;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
-#yellow-button {
+#yellowFirst {
   display: inline-block;
   padding: 15px 25px;
   font-size: 24px;
@@ -146,10 +146,78 @@ a:hover {
   box-shadow: 0 9px #999;
 }
 
-#yellow-button:hover {background-color: #9AC1DC}
+#yellowFirst:hover {background-color: #9AC1DC}
 
-#yellow-button:active {
+#yellowFirst:active {
   background-color: #206798;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
+}
+
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dot {
+  height: 100px;
+  width: 100px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  line-height: 175px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 100px
+  -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+
+}
+
+.wrap {
+  flex-wrap: wrap;
+  height: 750px;
+  width: 800px;
+}
+
+.container {
+align-items: center;
+}
+
+
+.columnv2 {
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+}
+
+.Red {
+  background-color: #BE2422;
+  color: transparent;
+}
+
+.Yellow {
+  background-color: #F3E233;
+  color: transparent;
+}
+
+#board {
+  background-color:#5AA0D1;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 123px;
+  user-select: none;
+border-radius: 20px;
 }
